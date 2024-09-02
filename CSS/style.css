@@ -1,0 +1,79 @@
+/* EXTERNAL CSS FILE */
+
+
+
+/* descendent selector = child of ul */
+ .nav-ul li{
+    color: red;
+} 
+/* id selector */
+#nav-ol{
+    color: brown;  
+}
+/* tag selector */
+p{
+    font-family: cursive;
+    font-size: large;
+    color:aqua;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+dl{
+    color: yellowgreen;
+    font-weight: bold;
+}
+/* child selector */
+.child > li > a{
+    color: brown;
+    text-decoration: none;
+    background-color: aquamarine;
+}
+.child > li{
+    display: inline-block;
+}
+.child{
+    background-color: aquamarine;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.first-section{
+    background-color:  chocolate;
+    margin-bottom: 20px;
+}
+.second-section{
+    background-color: crimson;
+}
+/* universal selector */
+*{
+    margin: 0px;
+}
+
+h1{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+h2{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+h3{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+h4{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+h5{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+h6{
+    margin-top:10px;
+    margin-bottom:10px;
+}

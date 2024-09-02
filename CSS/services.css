@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: coral;
+    display: flex;
+    height: 200px;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+div > div{
+    background-color: blueviolet;
+    height: 400px;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+footer{
+    background-color: cadetblue;
+    height: 150px;
+    font-size: xx-large;
+    font-family: cursive;
+}

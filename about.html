@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boiler Plate code</title>
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.bNyPMpGNdyuQghegHjvI0QHaHF?rs=1&pid=ImgDetMain">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- <style>
+        /* descendent selector = child of ul */
+        .nav-ul li{
+            color: red;
+        } 
+        /* id selector */
+        #nav-ol{
+            color: brown;  
+        }
+        /* tag selector */
+        p{
+            font-family: cursive;
+            font-size: large;
+            color:aqua;
+        }
+        dl{
+            color: yellowgreen;
+            font-weight: bold;
+        }
+        /* child selector */
+        .child > li > a{
+            color: brown;
+            text-decoration: none;
+            background-color: aquamarine;
+        }
+        .child > li{
+            display: inline-block;
+        }
+        .child{
+            background-color: aquamarine;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .first-section{
+            background-color:  chocolate;
+            margin-bottom: 20px;
+        }
+        .second-section{
+            background-color: crimson;
+        }
+        /* universal selector */
+        *{
+            margin: 0px;
+        }
+    </style> -->
+</head>
+
+<body>
+    <ul  class="child">
+        <li>
+            <a href="./index.html">Home</a>
+        </li>
+        <li >
+            <a href="./about.html">About</a>
+        </li>
+        <li>
+            <a href="./services.html">Services</a>
+        </li>
+        <li >
+            <a href="./contact.html">Contact</a>
+        </li>
+        <li >
+            <a href="https://www.google.co.in/" target="_blank">Google </a>
+        </li>
+    </ul>
+
+    <section class="first-section">
+        Section 1
+    </section>
+    <section class="second-section">
+        Section 2
+    </section>
+
+    <h1>This website is to test "BOILER PLATE CODE"</h1>
+    <h2>sub heading</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6>
+
+    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form
+        of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder
+        before the final copy is available. It is also used to temporarily replace text in a process called greeking,
+        which allows designers to consider the form of a webpage or publication, without the meaning of the text
+        influencing the design.</p>
+    <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form
+        of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder
+        before the final copy is available. It is also used to temporarily replace text in a process called greeking,
+        which allows designers to consider the form of a webpage or publication, without the meaning of the text
+        influencing the design.</p>
+
+    <ul class="nav-ul">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Jackfruit</li>
+    </ul>
+
+    <ol type="i" id="nav-ol">
+        <li>item</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+    </ol>
+
+    <dl>
+        <dt>Front end</dt>
+        <dd>html</dd>
+        <dd>css</dd>
+
+        <dt>Back end</dt>
+        <dd>nodeJs</dd>
+        <dd>expressJs</dd>
+    </dl>
+
+    <img src="https://th.bing.com/th?id=OSK.HEROJ2j3h-tevTevlHqU-nbph6wvtJbxO9X4usgPmMplz9I&w=312&h=200&c=15&rs=2&o=6&oif=webp&dpr=1.5&pid=SANGAM"
+        alt="DonaldTrump">
+
+    <table border="5">
+        <tr>
+            <td colspan="2">c1.1 coloumn1</td>
+            <td>c1.2</td>
+            <!-- <td>c1.3</td> -->
+        </tr>
+        <tr>
+            <td>c2.1</td>
+            <td rowspan="2" align="center">c2.2</td>
+            <td>c2.3</td>
+        </tr>
+        <tr>
+            <td>c3.1</td>
+            <td>c3.2</td>
+            <!-- <td>c3.3</td> -->
+        </tr>
+    </table>
+
+    <span style="background-color: brown;">sample span1</span>
+    <span>sample span2</span>
+
+    <div style="background-color: aquamarine;">sample div1</div>
+    <div>sample div2</div>
+
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name"> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"> <br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="number" id="phone"> <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password"> <br>
+ 
+        <label for="message">Message:</label>
+        <textarea row="10"></textarea> <br>
+
+        <label for="select-country">Select a country:</label>
+        <select name="country" id="country">
+            <option value="select">Select a country</option>
+            <option value="India">India</option>
+            <option value="UAE">UAE</option>
+            <option value="Iraq">Iraq</option>
+        </select> <br>
+        
+        <label for="hobbies">Hobboies: </label>
+        <input type="checkbox" id="reading"  value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="swimming" value="swimming">
+        <label for="swimming">Swimming</label>
+        <input type="checkbox" id="drawing" value="drawing">
+        <label for="drawing">Drawing</label>
+        <input type="checkbox" id="walking" value="walking">
+        <label for="walking">Walking</label> <br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male">
+
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female" value="female">
+
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">other</label>
+         <br>
+
+        <button>Submit</button>
+    </form>
+
+    <!-- styles in html -->
+     <div style="background-color: black; color:aliceblue">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi ut dolores quo necessitatibus quasi tenetur? Facere cum in iste eveniet est provident nesciunt voluptas dolores esse. Tenetur optio praesentium incidunt?
+     </div>
+
+     <div style="background-image: url(./images/icon-trump.png); background-size: contain; height: 100px; width: 100px; background-repeat: repeat;">
+
+     </div>
+
+    </body>
+
+</html>
